@@ -1,13 +1,13 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "Akshay";
-const char* password = "12345678";
+const char* ssid = "Your SSID";
+const char* password = "Your Password";
 
-#define ORG "n5sshj"
-#define DEVICE_TYPE "nodemcu"
-#define DEVICE_ID "nodemcu"
-#define TOKEN "Nodemcu@1"
+#define ORG "Your Org ID"
+#define DEVICE_TYPE "Your Device type"
+#define DEVICE_ID "Your Device ID"
+#define TOKEN "Your Device Token"
 String command;
 char server[] = ORG ".messaging.internetofthings.ibmcloud.com";
 char topic[] = "iot-2/cmd/home/fmt/String";
